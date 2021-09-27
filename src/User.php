@@ -47,8 +47,8 @@ class User extends Person
         $this->weight = 90;
     }
 
-    public static function bla($test)
+    public static function bla()
     {
-        echo 'Static method with param ' . $test . PHP_EOL;
+        echo 'Static method with param ' . PHP_EOL;
     }
 }
